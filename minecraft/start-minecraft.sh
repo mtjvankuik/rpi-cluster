@@ -1,4 +1,5 @@
 #! /bin/bash
 
-cd /projects/awesome-compose/minecraft
-docker compose up -d
+cd /projects/docker-minecraft-server
+docker compose --file docker-compose.yml up -d
+
